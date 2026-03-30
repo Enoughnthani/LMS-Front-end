@@ -44,7 +44,7 @@ const MentorPage = () => {
     { id: 2, name: 'Sarah Wilson', currentReport: 'Week 2 Report', status: 'approved', progress: 'Ahead' },
     { id: 3, name: 'David Lee', currentReport: 'Week 4 Report', status: 'needs_revision', progress: 'At Risk' },
   ];
-
+ 
   const pendingActivities = [
     { id: 1, intern: 'Michael Brown', activity: 'Timesheet Approval', submitted: '2024-03-14' },
     { id: 2, intern: 'David Lee', activity: 'Report Review', submitted: '2024-03-13' },
