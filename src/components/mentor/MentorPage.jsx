@@ -27,7 +27,7 @@ const RoleSwitcher = ({ currentRole, availableRoles, onRoleChange }) => {
 const MentorPage = () => {
   // Mock user data
   const [user] = useState({
-    name: 'Alex Morgan',
+    name: 'SIZWE ZWANE',
     availableRoles: ['Facilitator', 'Assessor', 'Moderator', 'Mentor', 'Intern']
   });
   
@@ -163,5 +163,6 @@ const MentorPage = () => {
     </Container>
   );
 };
+
 
 export default MentorPage;

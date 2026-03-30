@@ -4,7 +4,7 @@ import { FaFacebook, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <footer className="bg-slate-950 text-gray-300 py-12">
+        <footer className="bg-zinc-800 text-gray-300 py-12">
             <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10">
 
                 <div>
@@ -48,16 +48,16 @@ export default function Footer() {
 
                         {/* Social Icons */}
                         <div className="flex space-x-4 mt-4">
-                            <a href="#" className="hover:text-white transition">
+                            <a href="#" className="text-blue-600 transition">
                                 <Linkedin className="w-5 h-5" />
                             </a>
-                            <a href="#" className="hover:text-white transition">
+                            <a href="#" className="text-blue-600 transition">
                                 <Facebook className="w-5 h-5" />
                             </a>
-                            <a href="#" className="hover:text-white transition">
+                            <a href="#" className="text-white transition">
                                 <Instagram className="w-5 h-5" />
                             </a>
-                            <a href="#" className="hover:text-white transition">
+                            <a href="#" className="text-green-800 transition">
                                 <FaWhatsapp className="w-5 h-5" />
                             </a>
                         </div>
@@ -82,30 +82,30 @@ export default function Footer() {
                         <input
                             type="text"
                             placeholder="Your Name"
-                            className="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 text-gray-200 focus:ring-2 focus:ring-red-500"
+                            className="w-full p-3 bg-zinc-800 rounded-lg  border border-gray-700 text-gray-200 "
                             required
                         />
 
                         <input
                             type="email"
                             placeholder="Your Email"
-                            className="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 text-gray-200 focus:ring-2 focus:ring-red-500"
+                            className="w-full p-3 bg-zinc-800 rounded-lg  border border-gray-700 text-gray-200 "
                             required
                         />
 
                         <textarea
                             rows="4"
                             placeholder="Write your message..."
-                            className="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 text-gray-200 focus:ring-2 focus:ring-red-500"
+                            className="w-full p-3 rounded-lg bg-zinc-800 border border-gray-700 text-gray-200 "
                             required
                         ></textarea>
 
                         {/* Submit */}
                         <button
                             type="submit"
-                            className="w-full bg-red-600 text-white py-3 rounded-lg hover:bg-red-700 transition font-medium"
+                            className="w-full bg-red-600/50 text-white py-3 rounded-lg hover:bg-red-700 transition font-medium"
                         >
-                            Send
+                            SUBMIT
                         </button>
                     </form>
                 </div>
