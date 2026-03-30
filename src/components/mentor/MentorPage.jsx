@@ -35,8 +35,6 @@ const MentorPage = () => {
 
   const handleRoleChange = (newRole) => {
     setCurrentRole(newRole);
-    // In a real app, you would navigate to the new role page
-    console.log(`Switching to ${newRole} role`);
   };
   
   const interns = [
